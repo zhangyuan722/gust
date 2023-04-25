@@ -2,15 +2,15 @@
   "name": "gust",
   "version": "0.0.1",
   "description": "",
-  "main": "./dist/index.cjs.js",
-  "module": "./dist/index.esm.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
   "type": "module",
   "scripts": {
-    "dev": "NODE_ENV=development rollup -w -c",
+    "dev": "NODE_ENV=development pnpm rollup -w -c",
     "build": "rm -fr dist && NODE_ENV=production pnpm rollup -c"
   },
   "keywords": [],
