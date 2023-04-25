@@ -1,7 +1,7 @@
 {
   "name": "gust",
   "version": "0.0.1",
-  "description": "",
+  "description": "self-use, lightweight, convenient, javascript toolkit library.",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -13,7 +13,7 @@
     "dev": "NODE_ENV=development pnpm rollup -w -c",
     "build": "rm -fr dist && NODE_ENV=production pnpm rollup -c"
   },
-  "keywords": [],
+  "keywords": ["gust"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
