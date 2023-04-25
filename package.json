@@ -1,7 +1,7 @@
 {
   "name": "@gust/weapp",
   "version": "0.0.1",
-  "description": "",
+  "description": "self-use, lightweight, convenient, javascript toolkit library.",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -10,11 +10,11 @@
   ],
   "type": "module",
   "scripts": {
-    "dev": "NODE_ENV=development rollup -w -c",
+    "dev": "NODE_ENV=development pnpm rollup -w -c",
     "build": "rm -fr dist && NODE_ENV=production pnpm rollup -c"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["gust", "@gust/weapp"],
+  "author": "monsters",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.1.0",
