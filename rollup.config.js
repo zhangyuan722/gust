@@ -7,7 +7,7 @@ export default [
   {
     input: "./src/index.ts",
     output: {
-      dir: "dist",
+      dir: "dist/miniprogram_dist",
       format: "esm",
       entryFileNames: "[name].js"
     },
